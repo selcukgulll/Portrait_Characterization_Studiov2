@@ -1,0 +1,11 @@
+{
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "ip_adapter_repo": "h94/IP-Adapter",
+  "ip_adapter_subfolder": "models",
+  "ip_adapter_weight": "ip-adapter-plus_sd15.bin",
+  "lora_path": "",
+  "lora_trigger": "football sticker caricature",
+  "output_size": 512,
+  "default_prompt": "football sticker caricature, professional football player portrait, clean dark outline, smooth cel shading, polished mobile game asset, centered, plain background, preserve original pose and clothing colors",
+  "negative_prompt": "photorealistic, different person, changed pose, extra fingers, extra arms, deformed face, asymmetrical eyes, text, watermark, logo, blurry, low quality, cropped head"
+}

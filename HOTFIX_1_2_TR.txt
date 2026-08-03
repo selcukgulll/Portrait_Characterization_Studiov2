@@ -1,0 +1,22 @@
+Football Portrait Studio v1.2
+
+Düzeltme:
+Önceki sürümde yüz benzerliği, karikatür denoise değerini de azaltıyordu.
+0.82 yüz + 0.55 karikatür ayarı gerçekte yaklaşık 0.36 denoise üretiyordu.
+Bu nedenle özel LoRA görünmüyor, sonuç fotoğrafa çok yakın kalıyordu.
+
+v1.2:
+- Yüz/kimlik gücü yalnızca IP-Adapter kimliğini kontrol eder.
+- Karikatür/denoise doğrudan img2img strength olur.
+- Kaynak renk karışımı varsayılanı düşürüldü.
+- Kimlik ağırlıklı / Dengeli / Karikatür güçlü presetleri eklendi.
+
+İlk test:
+LoRA trigger: xoxstickerstyle
+Yüz/kimlik: 0.76
+Karikatür/denoise: 0.68
+LoRA gücü: 0.90
+Kaynak renk karışımı: 0.10
+Guidance: 7.0
+Steps: 26
+Arka plan kaldırma: kapalı

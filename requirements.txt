@@ -1,0 +1,17 @@
+PySide6>=6.8,<7
+pandas>=2.2,<3
+Pillow>=10.4,<13
+requests>=2.32,<3
+numpy>=1.26,<3
+torch>=2.4
+torchvision>=0.19
+diffusers>=0.35
+transformers>=4.45
+accelerate>=1.0
+safetensors>=0.4
+huggingface_hub>=0.26
+peft>=0.13
+rembg[cpu]>=2.0.67,<3
+onnxruntime>=1.19
+opencv-python-headless>=4.10,<5
+pyinstaller>=6.10,<7

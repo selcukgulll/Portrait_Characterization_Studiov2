@@ -1,0 +1,16 @@
+Football Portrait Studio v1.3.3 Hotfix
+
+Düzeltilen hata:
+- Son İşlem önizlemesindeki şeffaf checkerboard ve bazı görüntü işlemleri
+  `np` kısaltmasını kullanıyordu.
+- app.py içinde `import numpy as np` eksik olduğu için:
+  NameError: name 'np' is not defined
+  hatası oluşuyordu.
+
+Kurulum:
+1. Uygulamayı kapat.
+2. Bu yamadaki app.py dosyasını mevcut FootballPortraitStudio klasörüne kopyala.
+3. Dosyanın üzerine yaz.
+4. postprocess.py mevcut klasörde kalmalıdır.
+5. run_app.bat ile yeniden aç.
+6. EXE kullanacaksan build_exe.bat ile yeniden oluştur.

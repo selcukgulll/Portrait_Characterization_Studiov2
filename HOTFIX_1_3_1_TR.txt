@@ -1,0 +1,17 @@
+Football Portrait Studio v1.3.1 Hotfix
+
+Düzeltilen hata:
+- Son İşlem sekmesinin metotları yanlış girintiyle MainWindow sınıfının dışında
+  kalmıştı.
+- Bu nedenle uygulama açılırken:
+  AttributeError: 'MainWindow' object has no attribute 'update_post_preview'
+  hatası oluşuyordu.
+
+Kurulum:
+1. Uygulamayı kapat.
+2. Bu yamadaki app.py dosyasını mevcut FootballPortraitStudio klasörüne kopyala.
+3. Dosyanın üzerine yaz.
+4. run_app.bat ile aç.
+5. EXE kullanacaksan build_exe.bat ile yeniden oluştur.
+
+Diğer v1.3 dosyaları, özellikle postprocess.py, mevcut klasörde kalmalıdır.

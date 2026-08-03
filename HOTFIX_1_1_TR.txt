@@ -1,0 +1,20 @@
+Football Portrait Studio v1.1 Hotfix
+
+Düzeltilenler:
+1. IP-Adapter yüklenmeden önce attention slicing açılması kaldırıldı.
+   Bu, "SlicedAttnProcessor.__init__() missing slice_size" hatasını düzeltir.
+2. Adapter yükleme başarısız olduğunda yarım pipeline'ın sonraki oyuncularda
+   kullanılması engellendi. Böylece devamındaki NoneType hataları oluşmaz.
+3. IP-Adapter ve LoRA, model CPU offload'dan önce yükleniyor.
+4. PyInstaller içindeki config.example.json konumu düzeltildi.
+5. build_exe.bat artık eski build/dist klasörlerini temizler ve doğru EXE
+   klasörünü otomatik açar.
+6. run_built_exe.bat eklendi.
+
+Kurulum:
+- ZIP içindeki dosyaları mevcut FootballPortraitStudio klasörünün üstüne çıkar.
+- config.json ve .venv silinmez.
+- Önce run_app.bat ile bir oyuncu test et.
+- Başarılıysa build_exe.bat çalıştır.
+- Sadece dist\FootballPortraitStudio\FootballPortraitStudio.exe dosyasını aç.
+- build klasöründeki dosyaları çalıştırma.

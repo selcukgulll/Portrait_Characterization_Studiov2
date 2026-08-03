@@ -1,0 +1,11 @@
+{
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "ip_adapter_repo": "h94/IP-Adapter",
+  "ip_adapter_subfolder": "models",
+  "ip_adapter_weight": "ip-adapter-plus_sd15.bin",
+  "lora_path": "D:/Dev/OT/OneTrainerRuns/xox_style_v2/model.safetensors",
+  "lora_trigger": "football sticker caricature",
+  "output_size": 512,
+  "default_prompt": "xoxcaristyleb, football sticker caricature, bust portrait of a professional football player, preserve original head position and pose, preserve hairstyle, preserve facial identity, recognizable eyebrows, nose, jawline and mouth, oversized head, slightly simplified facial features, clean thin dark outline, soft cel shading, polished mobile game character, centered, plain white background",
+  "negative_prompt": "photorealistic, realistic photo, different person, changed pose, deformed face, extra eyes, extra ears, blurry, text, watermark, logo, cropped head"
+}

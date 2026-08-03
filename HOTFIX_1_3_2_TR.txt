@@ -1,0 +1,16 @@
+Football Portrait Studio v1.3.2 Hotfix
+
+Düzeltilen hata:
+- PNG/JPG görseli Son İşlem sekmesine yüklerken kullanılan ImageOps sınıfı
+  app.py içinde import edilmemişti.
+- Bu nedenle:
+  NameError: name 'ImageOps' is not defined
+  hatası oluşuyordu.
+
+Kurulum:
+1. Uygulamayı kapat.
+2. Bu yamadaki app.py dosyasını mevcut FootballPortraitStudio klasörüne kopyala.
+3. Dosyanın üzerine yaz.
+4. postprocess.py mevcut klasörde kalmalıdır.
+5. run_app.bat ile yeniden aç.
+6. EXE kullanacaksan build_exe.bat ile yeniden oluştur.
